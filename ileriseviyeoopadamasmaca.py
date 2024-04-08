@@ -2,7 +2,7 @@ import random
 
 class AdamAsmaca:
     def __init__(self):
-        self.kategoriler = {"hayvanlar": "C:/Users/erayc/OneDrive/Masaüstü/hayvanlar.txt", "isimler": "C:/Users/erayc/OneDrive/Masaüstü/isimler.txt", "sehirler": "C:/Users/erayc/OneDrive/Masaüstü/sehirler.txt"}
+        self.kategoriler = {"hayvanlar": "path/hayvanlar.txt", "isimler": "path/isimler.txt", "sehirler": "path/sehirler.txt"}
         self.puan = 0
         self.kelime = ""
         self.tahminler = []
